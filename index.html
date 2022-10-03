@@ -1,0 +1,48 @@
+<script>
+  $(document).ready(function() {
+    $(".text").css("color", "red");
+    $("#myPhoto").hide();
+    $("#target").click(function(){
+    $("#myPhoto").toggle();
+    });
+  });
+</script>
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+  .text{
+    font-size: 40px;
+    font-family: monospace;
+    color: #606060;
+  }
+  
+  .smaller-image {
+    width: 400px;
+  }
+  
+  body {
+  background-color: #e6e8f5;
+}
+</style>
+
+
+<!DOCTYPE html>
+<html>
+<main>
+  <p class="text">輔仁大學資工二乙</p>
+  <p class="text">學號：410262262</p>
+  <img id="myPhoto" class="smaller-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/U2f84b.svg/1200px-U2f84b.svg.png" alt="my photo.">
+  <button class="btn btn-default target" id="target">我是按鈕</button>
+  <p class="text">陪我玩：</p>
+  <ul>
+    <li class="text"><a href="https://playvalorant.com/zh-tw/">特戰英豪</a></li>
+    <li class="text"><a href="https://lol.garena.tw/">英雄聯盟</a></li>
+    <li class="text"><a href="https://genshin.hoyoverse.com/zh-tw/">原神</a></li>
+  </ul>
+  <p class="text">關於我：</p>
+  <ul>
+    <li class="text"><a href="http://www.gtes.tp.edu.tw/">古亭國小</li>
+    <li class="text"><a href="https://www.chwjh.tp.edu.tw">金華國中</li>
+    <li class="text"><a href="https://www.yphs.ntpc.edu.tw/">永平高中</li>
+    <li class="text"><a href="https://www.fju.edu.tw/">輔仁大學</li>
+  </html>
+
