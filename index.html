@@ -5,7 +5,18 @@
     $("#myPhoto").hide();
     $("#target").click(function(){
       $("#myPhoto").toggle();
-      $("#target").css("color", "red");
+    });
+    $("#target1").click(function(){
+      $("#target1").remove();
+    });
+    $("#target2").click(function(){
+      $("#target2").remove();
+    });
+    $("#target3").click(function(){
+      $("#target3").remove();
+    });
+    $("#target4").click(function(){
+      $("#target4").remove();
     });
   });
 </script>
@@ -18,7 +29,7 @@
   }
   
   .smaller-image {
-    width: 400px;
+    width: 300px;
   }
   
   body {
@@ -30,17 +41,20 @@
 <!DOCTYPE html>
 <html>
 <main>
-  <p class="text">輔仁大學資工二乙</p>
+  <p class="text">FJUCSIE</p>
   <p class="text">學號：410262262</p>
   <img id="myPhoto" class="smaller-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/U2f84b.svg/1200px-U2f84b.svg.png" alt="my photo.">
   <button class="btn btn-default target" id="target">我是按鈕</button>
-  <p class="text">陪我玩：</p>
+  <p class="text">我有玩：</p>
   <ul>
     <li class="text"><a href="https://playvalorant.com/zh-tw/">特戰英豪</a></li>
+    <button class="btn btn-default target" id="target1">查看ID</button>
     <li class="text"><a href="https://lol.garena.tw/">英雄聯盟</a></li>
+    <button class="btn btn-default target" id="target2">查看ID</button>
     <li class="text"><a href="https://genshin.hoyoverse.com/zh-tw/">原神</a></li>
+    <button class="btn btn-default target" id="target3">查看ID</button>
   </ul>
-  <p class="text">關於我：</p>
+  <p class="text">成長史：</p>
   <ul>
     <li class="text"><a href="http://www.gtes.tp.edu.tw/">古亭國小</li>
     <li class="text"><a href="https://www.chwjh.tp.edu.tw">金華國中</li>
